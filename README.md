@@ -2,8 +2,8 @@
 
 ## ABSTRACT = RESUMEN:
 
-Some exercises about Machine learning.<br>
-Algunos ejercicios de Machine learning.
+Some tips.<br>
+Algunos tips.
 
 
 ## INDEX = INDICE:
