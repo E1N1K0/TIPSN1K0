@@ -18,6 +18,7 @@ Algunos tips.
   
   - CAMBIAR FORMATO DE FECHA:
     Seleccionar texto => Reemplazar => Buscar: (\d{2})/(\d{2})/(\d{4}) => Reemplazar: \2/\1/\3 => Usar caracteres comodin.
+    Reordena una fecha en formato DD/MM/YYYY a MM/DD/YYYY. (\d{2}) captura el día, (\d{2}) captura el mes y (\d{4}) captura el año. \2, \1 y \3 representan los grupos capturados en ese orden.
     
   - RESALTAR TEXTO:
   - Seleccionar texto => Reemplazar => Buscar: palabra => Reemplazar: <span style="background-color: yellow;">palabra</span> => Usar caracteres comodin.  
