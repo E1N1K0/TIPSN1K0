@@ -7,6 +7,16 @@ Algunos tips.
 
 
 ## INDEX = INDICE:
+
+### CMD:
+  - CREA UNA LISTA.txt DESDE UNA LISTA DIR:
+    dir /b > lista. txt
+    partes del comando:
+    dir: es el comando para listar el contenido de un directorio.
+    /b: indica que queremos obtener una lista simplificada, solo con los nombres de archivo, sin información adicional.
+    >: sirve para redireccionar la salida del comando a un archivo en lugar de mostrarla en pantalla.
+    lista.txt: es el nombre del archivo de texto donde se guardará la lista. Si no existe, se creará. Si existe, su contenido será sobreescrito.
+
 ### WORD:
   - QUITAR ESPACIOS EN BLANCO DUPLICADOS:
      Seleccionar texto => Reemplazar => Buscar: ( ){2,} => Reemplazar: \1 => Usar caracteres comodin.
