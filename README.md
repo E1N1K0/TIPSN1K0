@@ -11,7 +11,7 @@ Algunos tips.
 ### CMD:
   - CREA UNA LISTA.txt DESDE UNA LISTA DIR:
     dir /b > lista. txt
-    partes del comando:
+    Partes del comando:
     dir: es el comando para listar el contenido de un directorio.
     /b: indica que queremos obtener una lista simplificada, solo con los nombres de archivo, sin información adicional.
     >: sirve para redireccionar la salida del comando a un archivo en lugar de mostrarla en pantalla.
