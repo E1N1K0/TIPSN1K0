@@ -20,6 +20,7 @@ Algunos tips.
 ### WORD:
   - QUITAR ESPACIOS EN BLANCO DUPLICADOS:
      Seleccionar texto => Reemplazar => Buscar: ( ){2,} => Reemplazar: \1 => Usar caracteres comodin.
+    
   - ELIMINAR ESPACIOS EN BLANCO AL INICIO:
     Seleccionar texto => Reemplazar => Buscar: ^\s+ => Reemplazar:  => Usar caracteres comodin.
   
