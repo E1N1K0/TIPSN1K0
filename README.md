@@ -17,6 +17,13 @@ Algunos tips.
     >: sirve para redireccionar la salida del comando a un archivo en lugar de mostrarla en pantalla.
     lista.txt: es el nombre del archivo de texto donde se guardará la lista. Si no existe, se creará. Si existe, su contenido será sobreescrito.
 
+
+### COMENTARIOS:
+PYTHON: # o """ y cierra con """
+REACT: /* y cierra con */
+
+
+
 ### WORD:
   - QUITAR ESPACIOS EN BLANCO DUPLICADOS:
      Seleccionar texto => Reemplazar => Buscar: ( ){2,} => Reemplazar: \1 => Usar caracteres comodin.
