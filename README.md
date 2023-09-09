@@ -48,15 +48,28 @@ ctrl + f5 to run your Python code without debugging
   - RESALTAR TEXTO:
   - Seleccionar texto => Reemplazar => Buscar: palabra => Reemplazar: <span style="background-color: yellow;">palabra</span> => Usar caracteres comodin.  
     
-
-
-
     
   - CODIGO:
   - "^" denota el inicio de un párrafo.
   - "\s+" representa uno o más espacios en blanco.
   - "$" denota el final de un párrafo.
 
+### POWER BI:
+(Pagina as number) as table =>
+let
+    Origen = Web.Page(Web.Contents("https://www.unglobalcompact.org/what-is-gc/participants/search?page="& Number.ToText(Pagina))),
+    Data0 = Origen{0}[Data]
+in
+    Data0
+
+Generar tabla 
+{1..349}
+Cambiar nombre de columna generada a pagina
+
+Nueva columna
+TraeTabla([pagina])
+
+Expandir
      
 ## Where users can get help with your project = Donde los usuarios pueden encontrar ayuda con el proyecto:
    Pueden escribirme a e1n1k0programa@gmail.com<br><br>
