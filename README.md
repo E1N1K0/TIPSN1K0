@@ -23,6 +23,13 @@ PYTHON: # o """ y cierra con """
 REACT: /* y cierra con */
 
 
+### VSC:
+Guardar: Ctrl + s
+Seleccionar todo: Ctrl + A 
+Dejar seleccion en comentarios :mantener apretado Ctrl + k + c
+
+ctrl + f5 to run your Python code without debugging
+
 
 ### WORD:
   - QUITAR ESPACIOS EN BLANCO DUPLICADOS:
