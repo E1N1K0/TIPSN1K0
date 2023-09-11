@@ -27,7 +27,7 @@ REACT: /* y cierra con */
 Guardar: Ctrl + s
 Seleccionar todo: Ctrl + A 
 Dejar seleccion en comentarios :mantener apretado Ctrl + k + c
-
+Quitar seleccion en comentarios :mantener apretado Ctrl + k + u
 ctrl + f5 to run your Python code without debugging
 
 
