@@ -70,6 +70,19 @@ Nueva columna
 TraeTabla([pagina])
 
 Expandir
+
+CALCULAR EL TOTAL IGNORANDO FILTROS ((Usando DAX):
+Total Tabla = CALCULATE(SUM(Carpeta[Tabla]), ALL(Carpeta))
+
+MEDIDA DE PORCENTAJE TOTAL CON FORMATO % (Usando DAX):
+% Tabla = 
+FORMAT(
+    DIVIDE(
+        SUM(Skyscrapers[Tabla]), 
+        CALCULATE(SUM(Skyscrapers[Tabla]), ALL(Carpeta))
+    ), 
+    "0.00%"
+)
      
 ## Where users can get help with your project = Donde los usuarios pueden encontrar ayuda con el proyecto:
    Pueden escribirme a e1n1k0programa@gmail.com<br><br>
