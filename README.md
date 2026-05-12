@@ -19,7 +19,7 @@ Algunos tips.
 
 
 ### COMENTARIOS:
-PYTHON: # o """ y cierra con """
+PYTHON: # o """ y cierra con """</b>
 REACT: /* y cierra con */
 
 
