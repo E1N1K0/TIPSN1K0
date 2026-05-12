@@ -19,30 +19,30 @@ Algunos tips.
 
 
 ### COMENTARIOS:
-PYTHON: # o """ y cierra con """</b>
+PYTHON: # o """ y cierra con """<br>
 REACT: /* y cierra con */
 
 
 ### VSC:
-Guardar: Ctrl + s
-Seleccionar todo: Ctrl + A 
-Dejar seleccion en comentarios :mantener apretado Ctrl + k + c
-Quitar seleccion en comentarios :mantener apretado Ctrl + k + u
-ctrl + f5 to run your Python code without debugging
+Guardar: Ctrl + s<br>
+Seleccionar todo: Ctrl + A <br>
+Dejar seleccion en comentarios :mantener apretado Ctrl + k + c<br>
+Quitar seleccion en comentarios :mantener apretado Ctrl + k + u<br>
+ctrl + f5 to run your Python code without debugging<br>
 
 
 ### WORD:
-  - QUITAR ESPACIOS EN BLANCO DUPLICADOS:
+  - QUITAR ESPACIOS EN BLANCO DUPLICADOS:<br>
      Seleccionar texto => Reemplazar => Buscar: ( ){2,} => Reemplazar: \1 => Usar caracteres comodin.
     
-  - ELIMINAR ESPACIOS EN BLANCO AL INICIO:
+  - ELIMINAR ESPACIOS EN BLANCO AL INICIO:<br>
     Seleccionar texto => Reemplazar => Buscar: ^\s+ => Reemplazar:  => Usar caracteres comodin.
   
-  - ELIMINAR ESPACIOS EN BLANCO AL FINAL:
+  - ELIMINAR ESPACIOS EN BLANCO AL FINAL:<br>
     Seleccionar texto => Reemplazar => Buscar: \s+$ => Reemplazar:  => Usar caracteres comodin.
   
   - CAMBIAR FORMATO DE FECHA:
-    Seleccionar texto => Reemplazar => Buscar: (\d{2})/(\d{2})/(\d{4}) => Reemplazar: \2/\1/\3 => Usar caracteres comodin.
+    Seleccionar texto => Reemplazar => Buscar: (\d{2})/(\d{2})/(\d{4}) => Reemplazar: \2/\1/\3 => Usar caracteres comodin.<br>
     Reordena una fecha en formato DD/MM/YYYY a MM/DD/YYYY. (\d{2}) captura el día, (\d{2}) captura el mes y (\d{4}) captura el año. \2, \1 y \3 representan los grupos capturados en ese orden.
     
   - RESALTAR TEXTO:
@@ -50,12 +50,12 @@ ctrl + f5 to run your Python code without debugging
     
     
   - CODIGO:
-  - "^" denota el inicio de un párrafo.
-  - "\s+" representa uno o más espacios en blanco.
-  - "$" denota el final de un párrafo.
+  - "^" denota el inicio de un párrafo.<br>
+  - "\s+" representa uno o más espacios en blanco.<br>
+  - "$" denota el final de un párrafo.<br>
 
 ### POWER BI:
-(Pagina as number) as table =>
+(Pagina as number) as table =><br>
 let
     Origen = Web.Page(Web.Contents("https://www.unglobalcompact.org/what-is-gc/participants/search?page="& Number.ToText(Pagina))),
     Data0 = Origen{0}[Data]
@@ -72,7 +72,7 @@ TraeTabla([pagina])
 Expandir
 
 CALCULAR EL TOTAL IGNORANDO FILTROS ((Usando DAX):
-Total Tabla = CALCULATE(SUM(Carpeta[Tabla]), ALL(Carpeta))
+Total Tabla = CALCULATE(SUM(Carpeta[Tabla]), ALL(Carpeta))<br>
 
 MEDIDA DE PORCENTAJE TOTAL CON FORMATO % (Usando DAX):
 % Tabla = 
