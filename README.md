@@ -55,6 +55,20 @@ ctrl + f5 to run your Python code without debugging<br>
     "$" denota el final de un párrafo.<br>
 
 ### POWER BI:
+
+CALCULAR EL TOTAL IGNORANDO FILTROS ((Usando DAX):<br>
+Total Tabla = CALCULATE(SUM(Carpeta[Tabla]), ALL(Carpeta))<br>
+
+MEDIDA DE PORCENTAJE TOTAL CON FORMATO % (Usando DAX):<br>
+% Tabla =  
+FORMAT( 
+    DIVIDE( 
+        SUM(Skyscrapers[Tabla]),  
+        CALCULATE(SUM(Skyscrapers[Tabla]), ALL(Carpeta)) 
+    ),  
+    "0.00%" 
+)
+______
 (Pagina as number) as table =><br>
 let
     Origen = Web.Page(Web.Contents("https://www.unglobalcompact.org/what-is-gc/participants/search?page="& Number.ToText(Pagina))),
@@ -70,20 +84,7 @@ Nueva columna
 TraeTabla([pagina])
 
 Expandir
-
-CALCULAR EL TOTAL IGNORANDO FILTROS ((Usando DAX):<br>
-Total Tabla = CALCULATE(SUM(Carpeta[Tabla]), ALL(Carpeta))<br>
-
-MEDIDA DE PORCENTAJE TOTAL CON FORMATO % (Usando DAX):<br>
-% Tabla =  
-FORMAT( 
-    DIVIDE( 
-        SUM(Skyscrapers[Tabla]),  
-        CALCULATE(SUM(Skyscrapers[Tabla]), ALL(Carpeta)) 
-    ),  
-    "0.00%" 
-)
-     
+	 
 ## Where users can get help with your project = Donde los usuarios pueden encontrar ayuda con el proyecto:
    Pueden escribirme a e1n1k0programa@gmail.com<br><br>
 	 You can contact me at e1n1k0programa@gmail.com
