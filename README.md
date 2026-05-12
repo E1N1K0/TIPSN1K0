@@ -26,8 +26,8 @@ REACT: /* y cierra con */
 ### VSC:
 Guardar: Ctrl + s<br>
 Seleccionar todo: Ctrl + A <br>
-Dejar seleccion en comentarios :mantener apretado Ctrl + k + c<br>
-Quitar seleccion en comentarios :mantener apretado Ctrl + k + u<br>
+Dejar seleccion en comentarios: mantener apretado Ctrl + k + c<br>
+Quitar seleccion en comentarios: mantener apretado Ctrl + k + u<br>
 ctrl + f5 to run your Python code without debugging<br>
 
 
