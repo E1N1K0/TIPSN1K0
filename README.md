@@ -55,6 +55,10 @@ ctrl + f5 to run your Python code without debugging<br>
     "$" denota el final de un párrafo.<br>
 
 ### POWER BI:
+MEDIDAS: Para dejar las medidas ordenadas (Como crear carpeta): Inicio => Introducir datos => Cargar. <br>
+Creará una Tabla nueva con una columna (vacia) que puedes borrar luego.<br>
+
+CREAR MEDIDA: En sección DATOS (derecha), Botón derecho sobre cualquier columna. Nueva medida.
 
 CALCULAR EL TOTAL IGNORANDO FILTROS ((Usando DAX):<br>
 Total Tabla = CALCULATE(SUM(Carpeta[Tabla]), ALL(Carpeta))<br>
