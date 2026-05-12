@@ -41,18 +41,18 @@ ctrl + f5 to run your Python code without debugging<br>
   - ELIMINAR ESPACIOS EN BLANCO AL FINAL:<br>
     Seleccionar texto => Reemplazar => Buscar: \s+$ => Reemplazar:  => Usar caracteres comodin.
   
-  - CAMBIAR FORMATO DE FECHA:
+  - CAMBIAR FORMATO DE FECHA:<br>
     Seleccionar texto => Reemplazar => Buscar: (\d{2})/(\d{2})/(\d{4}) => Reemplazar: \2/\1/\3 => Usar caracteres comodin.<br>
     Reordena una fecha en formato DD/MM/YYYY a MM/DD/YYYY. (\d{2}) captura el día, (\d{2}) captura el mes y (\d{4}) captura el año. \2, \1 y \3 representan los grupos capturados en ese orden.
     
-  - RESALTAR TEXTO:
-  - Seleccionar texto => Reemplazar => Buscar: palabra => Reemplazar: <span style="background-color: yellow;">palabra</span> => Usar caracteres comodin.  
+  - RESALTAR TEXTO:<br>
+    Seleccionar texto => Reemplazar => Buscar: palabra => Reemplazar: <span style="background-color: yellow;">palabra</span> => Usar caracteres comodin.  
     
     
-  - CODIGO:
-  - "^" denota el inicio de un párrafo.<br>
-  - "\s+" representa uno o más espacios en blanco.<br>
-  - "$" denota el final de un párrafo.<br>
+  - CODIGO:<br>
+    "^" denota el inicio de un párrafo.<br>
+    "\s+" representa uno o más espacios en blanco.<br>
+    "$" denota el final de un párrafo.<br>
 
 ### POWER BI:
 (Pagina as number) as table =><br>
